@@ -1,0 +1,361 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+header{
+    background-color: gold;
+    background-size: cover;
+    width: 100%;    
+}
+
+.header-list{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+    padding: 40px;
+    color: #000054;
+}
+
+.header-list ul{
+    border-left: 1px solid #000054;
+    border-width: thin;
+    padding-left: 30px;
+}
+
+.header-list li{
+    font-family:'Lato', sans-serif;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: #000054;
+}
+
+.header-list li:hover{
+    border-bottom: 1px solid #000054;
+}
+
+main{
+    background-color: gold;
+    background-size: cover;
+    width: 100%;   
+}
+
+.main-contents{
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo{
+    text-align: center;
+    border: 2px solid #000054;
+}
+
+.main-logo h1{
+    font-family:"Nunito";
+    font-size: 62px;
+    line-height: 76px;
+    color: #000054;
+}
+
+.T{
+    padding-top: 72px;
+    padding-right: 44px;
+    padding-left: 44px;
+}
+
+.I{
+    padding-bottom: 72px;
+}
+
+.scroll-icon1{
+    text-align: center;
+    color: white;
+    margin-top:60px;
+}
+
+.fas{
+    font-size: 48px;
+}
+
+.fa-angle-down{
+    color: #000054;
+    transition: all 0.3s linear 0s;
+}
+
+.fa-angle-down:hover{
+    transform: rotateY(180deg);
+}
+
+.main-about{
+    background:gold;
+    color: white;
+    padding-top: 30px;
+}
+
+.about-title{
+    text-align: center;
+}
+
+.about-title h1{
+    font-family:"Nunito";
+    font-size: 62px;
+    color: #000054;
+    padding-top: 10px;
+}
+
+.about-sentences{
+    display: flex;
+    background-color: #000054;
+    margin: 40px 0;
+    margin-left: 160px;
+}
+
+.about-container{
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+}
+
+.about-left{
+    margin: 40px;
+    margin-right: 0px;
+    text-align: right;
+    line-height: 40px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.about-center{
+    margin: 40px;
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+.about-right{
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+.prof,.career,.can{
+    margin-top: 32px;
+    font-family:'Lato', sans-serif;
+}
+
+.about-prof,.about-career,.about-can{
+    margin-top: 32px;
+}
+
+.about-can{
+    letter-spacing: 8px;
+}
+
+.icon img{
+    border: 2px solid #000054;
+    border-radius: 20px;
+}
+
+.scroll-icon2{
+    color: white; 
+    text-align: center;
+}
+
+.portfolio-sentense{
+    text-align: left;
+    color: white;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+.portfolio-sentense h1{
+    font-family:"Nunito";
+    margin-top: 10px;
+    font-size: 160px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-shadow: 6px 2px rgba(185, 185, 185,0.5);
+}
+
+.portfolio-sentense p{
+    font-family:'Lato', sans-serif;   
+    font-size: 20px;
+}
+
+.date{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.portfolio-contents{
+    padding-bottom: 80px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-1,.image-2,.image-3{
+    width: 360px;
+    height: 160px;  
+    margin-top:40px;
+}
+
+.image-1{
+    background-image: url("hajimete.png");
+    background-size: cover;
+}
+
+.image-2{
+    background-image: url("responsive.png");
+    background-size: cover;
+}
+
+.image-3{
+    background-image: url("bootstrap.png");
+    background-size: cover;
+}
+
+.image-1:hover{
+    filter: brightness(80%);
+}
+
+.image-2:hover{
+    filter: brightness(80%);
+}
+
+.image-3:hover{
+    filter: brightness(80%);
+}
+
+.image-sentense{
+    margin-top: 30px;
+    font-size: 22px;
+    color: white;
+    font-family:'Lato', sans-serif;
+    font-weight: bold;  
+}
+
+.fa-angle-double-up{
+    color: white;
+}
+
+.fa-twitter-square{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.fa-angle-double-up:hover,.fa-twitter-square:hover,.fa-line:hover{
+    color: gold;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    padding-top: 30px;
+}
+
+.footer-contents{
+    background-color: #000054;
+    color: white;
+    text-align: center;
+}
+
+.footer-icon{
+    margin-left: 40px;
+}
+
+.footer-logo{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+@media all and (max-width: 1024px) {
+
+    .header-list ul{
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+
+    .main-contents{
+        padding: 350px 0;
+    }
+
+    .about-title{
+        margin-right:0;
+    }
+
+    .about-container{
+        flex-direction:column;
+    } 
+
+    .about-sentences{
+        margin-top: 40px;
+        order: 2;
+    }
+
+    .about-left{
+        margin-left: 100px;
+    }
+
+    .about-right{
+        margin-left:0;
+        order: 1;
+        text-align: center;
+    }
+
+    .images{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    .image-1,.image-2,.image-3{
+        width: 630px;
+        height: 280px;  
+        margin-top:100px;
+        box-shadow: 8px 8px rgba(185, 185, 185,0.5);
+    }
+
+    .main-about{
+        padding-top: 280px;
+    }
+
+    .about-container{
+        padding-bottom: 160px;
+    }
+
+    .portfolio-sentense{
+        padding: 120px 0;
+    }
+
+    .fa-line{
+        margin-left: 40px;
+    }
+
+    .fa-twitter-square,.fa-line{
+        font-size: 108px;
+    }
+
+}
